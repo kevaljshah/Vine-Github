@@ -166,15 +166,15 @@ public class MainActivity extends AppCompatActivity {
 
             TextView issueTitle;
             TextView issueBody;
-            TextView issueComment;
+            //TextView issueComment;
 
             issueTitle = (TextView)convertView.findViewById(R.id.issueTitleField);
             issueBody = (TextView)convertView.findViewById(R.id.issueBodyField);
-            issueComment = (TextView)convertView.findViewById(R.id.issueCommentField);
+            //issueComment = (TextView)convertView.findViewById(R.id.issueCommentField);
 
             issueTitle.setText(issueModelList.get(position).getTitle());
             issueBody.setText(issueModelList.get(position).getBody());
-            issueComment.setText(issueModelList.get(position).getComments());
+            //issueComment.setText(issueModelList.get(position).getComments());
 
             return convertView;
         }
